@@ -1,0 +1,1 @@
+{"name":"brain-trap","private":true,"type":"module","scripts":{"test":"node --test tests/levels.test.js","test:browser":"node tests/browser.js"},"devDependencies":{"playwright":"^1.55.0"}}
