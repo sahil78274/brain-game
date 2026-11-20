@@ -1,0 +1,2488 @@
+[
+  {
+    "id": 1,
+    "world": 1,
+    "question": "Let the sunshine in!",
+    "subtitle": "The sun is shy today. Can you help it out?",
+    "scene": [
+      {
+        "id": "sun",
+        "x": 325,
+        "y": 141,
+        "hidden": false
+      },
+      {
+        "id": "cloud",
+        "x": 325,
+        "y": 141,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloud",
+        "type": "off"
+      }
+    ],
+    "hint": "That cloud looks lighter than air.",
+    "solution": "Drag the cloud past an edge of the scene. The sun was behind it all along.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "world": 1,
+    "question": "Room for a tiny king",
+    "subtitle": "This crown is a little ambitious.",
+    "scene": [
+      {
+        "id": "frog",
+        "x": 410,
+        "y": 165,
+        "hidden": false
+      },
+      {
+        "id": "crown",
+        "x": 220,
+        "y": 145,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "crown",
+        "type": "shrink"
+      },
+      {
+        "id": "crown",
+        "type": "drop",
+        "target": "frog"
+      }
+    ],
+    "hint": "Royalty doesn't have to be life-sized.",
+    "solution": "Shrink the crown once, then drag it onto the frog.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "world": 1,
+    "question": "Cool the soup without touching it",
+    "subtitle": "The chef says the soup is off-limits.",
+    "scene": [
+      {
+        "id": "bowl",
+        "x": 407,
+        "y": 171,
+        "hidden": false
+      },
+      {
+        "id": "fan",
+        "x": 218,
+        "y": 165,
+        "hidden": false
+      },
+      {
+        "id": "switch",
+        "x": 218,
+        "y": 249,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "switch",
+        "type": "tap"
+      },
+      {
+        "id": "fan",
+        "type": "drop",
+        "target": "bowl"
+      }
+    ],
+    "hint": "Start with the fan's power switch.",
+    "solution": "Tap the switch, then move the fan onto the soup to cool it.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "world": 1,
+    "question": "Wake a sleepy lighthouse",
+    "subtitle": "It needs a steady signal, not a quick flash.",
+    "scene": [
+      {
+        "id": "tower",
+        "x": 408,
+        "y": 175,
+        "hidden": false
+      },
+      {
+        "id": "lamp",
+        "x": 225,
+        "y": 145,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "lamp",
+        "type": "hold"
+      },
+      {
+        "id": "lamp",
+        "type": "drop",
+        "target": "tower"
+      }
+    ],
+    "hint": "Keep your finger on the lamp.",
+    "solution": "Hold the lamp until it charges, then bring it to the tower.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "world": 1,
+    "question": "Deliver a shadow",
+    "subtitle": "The mailbox accepts no objects, only shade.",
+    "scene": [
+      {
+        "id": "mailbox",
+        "x": 406,
+        "y": 170,
+        "hidden": false
+      },
+      {
+        "id": "sun",
+        "x": 215,
+        "y": 74,
+        "hidden": false
+      },
+      {
+        "id": "tree",
+        "x": 265,
+        "y": 192,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "sun",
+        "type": "drop",
+        "target": "tree"
+      },
+      {
+        "id": "tree",
+        "type": "drop",
+        "target": "mailbox"
+      }
+    ],
+    "hint": "Shade depends on where the light is.",
+    "solution": "Move the sun to the tree to align its light, then move the tree to the mailbox.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "world": 1,
+    "question": "Make a bridge for the beetle",
+    "subtitle": "The plank is pointing across the wrong gap.",
+    "scene": [
+      {
+        "id": "plank",
+        "x": 240,
+        "y": 149,
+        "hidden": false
+      },
+      {
+        "id": "gap",
+        "x": 407,
+        "y": 158,
+        "hidden": false
+      },
+      {
+        "id": "beetle",
+        "x": 160,
+        "y": 236,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "plank",
+        "type": "rotate"
+      },
+      {
+        "id": "plank",
+        "type": "drop",
+        "target": "gap"
+      },
+      {
+        "id": "beetle",
+        "type": "drop",
+        "target": "plank"
+      }
+    ],
+    "hint": "Look at the plank's angle first.",
+    "solution": "Turn the plank once, lay it on the gap, and move the beetle onto the plank.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "world": 1,
+    "question": "A stamp for the moon",
+    "subtitle": "Don't send the moon. Send a print of it.",
+    "scene": [
+      {
+        "id": "moon",
+        "x": 225,
+        "y": 130,
+        "hidden": false
+      },
+      {
+        "id": "ink",
+        "x": 332,
+        "y": 219,
+        "hidden": false
+      },
+      {
+        "id": "card",
+        "x": 456,
+        "y": 142,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "moon",
+        "type": "drop",
+        "target": "ink"
+      },
+      {
+        "id": "moon",
+        "type": "drop",
+        "target": "card"
+      }
+    ],
+    "hint": "The moon can act like a rubber stamp.",
+    "solution": "Dip the moon in ink, then press it onto the card.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "world": 1,
+    "question": "Help a crab dodge the spotlight",
+    "subtitle": "Somewhere darker would be nice.",
+    "scene": [
+      {
+        "id": "crab",
+        "x": 268,
+        "y": 168,
+        "hidden": false
+      },
+      {
+        "id": "rock",
+        "x": 409,
+        "y": 176,
+        "hidden": false
+      },
+      {
+        "id": "lamp",
+        "x": 200,
+        "y": 83,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "crab",
+        "type": "drop",
+        "target": "rock"
+      },
+      {
+        "id": "crab",
+        "type": "back"
+      }
+    ],
+    "hint": "A rock has two sides, even in a drawing.",
+    "solution": "Move the crab onto the rock, then send the crab behind it.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "world": 1,
+    "question": "Post the too-long letter",
+    "subtitle": "No folding allowed at this post office.",
+    "scene": [
+      {
+        "id": "letter",
+        "x": 205,
+        "y": 155,
+        "hidden": false
+      },
+      {
+        "id": "mailbox",
+        "x": 429,
+        "y": 163,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "letter",
+        "type": "rotate"
+      },
+      {
+        "id": "letter",
+        "type": "drop",
+        "target": "mailbox"
+      }
+    ],
+    "hint": "Change the direction of the letter, not its size.",
+    "solution": "Rotate the letter once to match the slot, then drag it onto the mailbox.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10,
+    "world": 1,
+    "question": "Catch the invisible moth",
+    "subtitle": "It left a trail near the lamp.",
+    "scene": [
+      {
+        "id": "lamp",
+        "x": 355,
+        "y": 164,
+        "hidden": false
+      },
+      {
+        "id": "powder",
+        "x": 210,
+        "y": 210,
+        "hidden": false
+      },
+      {
+        "id": "net",
+        "x": 475,
+        "y": 207,
+        "hidden": false
+      },
+      {
+        "id": "moth",
+        "x": 355,
+        "y": 164,
+        "hidden": true
+      }
+    ],
+    "steps": [
+      {
+        "id": "powder",
+        "type": "drop",
+        "target": "lamp",
+        "reveal": "moth"
+      },
+      {
+        "id": "net",
+        "type": "drop",
+        "target": "moth"
+      }
+    ],
+    "hint": "Dust can make invisible things visible.",
+    "solution": "Drag powder onto the lamp to reveal the moth, then catch it with the net.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 11,
+    "world": 1,
+    "question": "Give the snail a doorbell",
+    "subtitle": "It wants to hear visitors before opening up.",
+    "scene": [
+      {
+        "id": "snail",
+        "x": 409,
+        "y": 169,
+        "hidden": false
+      },
+      {
+        "id": "bell",
+        "x": 205,
+        "y": 169,
+        "hidden": false
+      },
+      {
+        "id": "button",
+        "x": 297,
+        "y": 242,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "button",
+        "type": "drop",
+        "target": "bell"
+      },
+      {
+        "id": "bell",
+        "type": "drop",
+        "target": "snail"
+      }
+    ],
+    "hint": "A bell needs something to trigger it.",
+    "solution": "Combine the button with the bell, then bring the bell to the snail.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "world": 1,
+    "question": "Make the puddle apologize",
+    "subtitle": "It splashed the duck. Put things right.",
+    "scene": [
+      {
+        "id": "duck",
+        "x": 438,
+        "y": 174,
+        "hidden": false
+      },
+      {
+        "id": "puddle",
+        "x": 328,
+        "y": 188,
+        "hidden": false
+      },
+      {
+        "id": "sponge",
+        "x": 202,
+        "y": 146,
+        "hidden": false
+      },
+      {
+        "id": "towel",
+        "x": 202,
+        "y": 235,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "sponge",
+        "type": "drop",
+        "target": "puddle"
+      },
+      {
+        "id": "towel",
+        "type": "drop",
+        "target": "duck"
+      }
+    ],
+    "hint": "The puddle and the duck need different kinds of cleanup.",
+    "solution": "Soak up the puddle with the sponge, then use the towel on the duck.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 13,
+    "world": 1,
+    "question": "Bottle a breeze",
+    "subtitle": "An upright bottle won't catch wind from the side.",
+    "scene": [
+      {
+        "id": "bottle",
+        "x": 427,
+        "y": 164,
+        "hidden": false
+      },
+      {
+        "id": "fan",
+        "x": 213,
+        "y": 172,
+        "hidden": false
+      },
+      {
+        "id": "cork",
+        "x": 326,
+        "y": 230,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "bottle",
+        "type": "rotate"
+      },
+      {
+        "id": "fan",
+        "type": "drop",
+        "target": "bottle"
+      },
+      {
+        "id": "cork",
+        "type": "drop",
+        "target": "bottle"
+      }
+    ],
+    "hint": "Point the bottle opening toward the fan.",
+    "solution": "Rotate the bottle once, bring the fan to it, then seal the bottle with the cork.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 14,
+    "world": 1,
+    "question": "Free the jammed zipper",
+    "subtitle": "Yanking harder won't make it slide.",
+    "scene": [
+      {
+        "id": "zipper",
+        "x": 419,
+        "y": 151,
+        "hidden": false
+      },
+      {
+        "id": "wax",
+        "x": 215,
+        "y": 168,
+        "hidden": false
+      },
+      {
+        "id": "pull",
+        "x": 319,
+        "y": 237,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "wax",
+        "type": "drop",
+        "target": "zipper"
+      },
+      {
+        "id": "pull",
+        "type": "drop",
+        "target": "zipper"
+      },
+      {
+        "id": "pull",
+        "type": "hold"
+      }
+    ],
+    "hint": "Start by making the teeth slippery.",
+    "solution": "Wax the zipper, attach the pull, then hold the pull to unzip steadily.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 15,
+    "world": 1,
+    "question": "A hat for a mountain",
+    "subtitle": "It won't fit unless you rethink the mountain.",
+    "scene": [
+      {
+        "id": "mountain",
+        "x": 421,
+        "y": 164,
+        "hidden": false
+      },
+      {
+        "id": "hat",
+        "x": 221,
+        "y": 140,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "mountain",
+        "type": "shrink"
+      },
+      {
+        "id": "mountain",
+        "type": "shrink"
+      },
+      {
+        "id": "hat",
+        "type": "drop",
+        "target": "mountain"
+      }
+    ],
+    "hint": "The hat isn't the only thing that can change size.",
+    "solution": "Shrink the mountain twice, then place the hat on it.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "world": 1,
+    "question": "The echo delivery",
+    "subtitle": "The cave will only send back a sound it hears.",
+    "scene": [
+      {
+        "id": "cave",
+        "x": 441,
+        "y": 147,
+        "hidden": false
+      },
+      {
+        "id": "bell",
+        "x": 202,
+        "y": 171,
+        "hidden": false
+      },
+      {
+        "id": "jar",
+        "x": 309,
+        "y": 235,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "bell",
+        "type": "drop",
+        "target": "cave"
+      },
+      {
+        "id": "bell",
+        "type": "tap"
+      },
+      {
+        "id": "jar",
+        "type": "drop",
+        "target": "cave"
+      }
+    ],
+    "hint": "Ring the bell at the cave, not across the room.",
+    "solution": "Bring the bell to the cave and tap it. Then bring the jar to the cave to collect the echo.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "world": 1,
+    "question": "Open the alarm box politely",
+    "subtitle": "It complains if you open it before saying hello.",
+    "scene": [
+      {
+        "id": "box",
+        "x": 410,
+        "y": 167,
+        "hidden": false
+      },
+      {
+        "id": "card",
+        "x": 209,
+        "y": 148,
+        "hidden": false
+      },
+      {
+        "id": "key",
+        "x": 288,
+        "y": 233,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "card",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "key",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "box",
+        "type": "hold"
+      }
+    ],
+    "hint": "Send your greeting before using the key.",
+    "solution": "Drag the greeting card onto the box, use the key, then hold the box to open it slowly.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 18,
+    "world": 1,
+    "question": "Save the melting snowman",
+    "subtitle": "The umbrella can't stand up on bare ice.",
+    "scene": [
+      {
+        "id": "snowman",
+        "x": 424,
+        "y": 160,
+        "hidden": false
+      },
+      {
+        "id": "umbrella",
+        "x": 201,
+        "y": 116,
+        "hidden": false
+      },
+      {
+        "id": "boot",
+        "x": 211,
+        "y": 226,
+        "hidden": false
+      },
+      {
+        "id": "ice",
+        "x": 340,
+        "y": 219,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "boot",
+        "type": "drop",
+        "target": "ice"
+      },
+      {
+        "id": "umbrella",
+        "type": "drop",
+        "target": "boot"
+      },
+      {
+        "id": "boot",
+        "type": "drop",
+        "target": "snowman"
+      }
+    ],
+    "hint": "Give the umbrella a stand that can grip the ice.",
+    "solution": "Put the boot on the ice, fit the umbrella into the boot, then move the stand to the snowman.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "world": 1,
+    "question": "Make a mirror face the ghost",
+    "subtitle": "Forward isn't always the right way to look.",
+    "scene": [
+      {
+        "id": "ghost",
+        "x": 429,
+        "y": 164,
+        "hidden": false
+      },
+      {
+        "id": "mirror",
+        "x": 215,
+        "y": 162,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "mirror",
+        "type": "rotate"
+      },
+      {
+        "id": "mirror",
+        "type": "rotate"
+      },
+      {
+        "id": "mirror",
+        "type": "drop",
+        "target": "ghost"
+      }
+    ],
+    "hint": "The mirror needs to look backward first.",
+    "solution": "Rotate the mirror twice, then move it to the ghost.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 20,
+    "world": 1,
+    "question": "Change the rain's address",
+    "subtitle": "The flower needs water more than the picnic does.",
+    "scene": [
+      {
+        "id": "cloud",
+        "x": 261,
+        "y": 93,
+        "hidden": false
+      },
+      {
+        "id": "flower",
+        "x": 434,
+        "y": 214,
+        "hidden": false
+      },
+      {
+        "id": "blanket",
+        "x": 252,
+        "y": 224,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloud",
+        "type": "drop",
+        "target": "flower"
+      },
+      {
+        "id": "cloud",
+        "type": "hold"
+      }
+    ],
+    "hint": "Clouds can be relocated before they rain.",
+    "solution": "Drag the cloud to the flower, then hold it to release rain there.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 21,
+    "world": 1,
+    "question": "A safe home for a spark",
+    "subtitle": "Glass alone won't stop this one bouncing out.",
+    "scene": [
+      {
+        "id": "spark",
+        "x": 220,
+        "y": 133,
+        "hidden": false
+      },
+      {
+        "id": "jar",
+        "x": 419,
+        "y": 165,
+        "hidden": false
+      },
+      {
+        "id": "mesh",
+        "x": 326,
+        "y": 225,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "mesh",
+        "type": "drop",
+        "target": "jar"
+      },
+      {
+        "id": "spark",
+        "type": "drop",
+        "target": "jar"
+      },
+      {
+        "id": "mesh",
+        "type": "tap"
+      }
+    ],
+    "hint": "Prepare a screen before letting the spark inside.",
+    "solution": "Fit the mesh to the jar, move the spark in, then tap the mesh to latch it.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 22,
+    "world": 1,
+    "question": "Balance the submarine",
+    "subtitle": "It has a very literal ballast problem.",
+    "scene": [
+      {
+        "id": "submarine",
+        "x": 408,
+        "y": 164,
+        "hidden": false
+      },
+      {
+        "id": "weight",
+        "x": 220,
+        "y": 145,
+        "hidden": false
+      },
+      {
+        "id": "wheel",
+        "x": 302,
+        "y": 228,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "weight",
+        "type": "drop",
+        "target": "submarine"
+      },
+      {
+        "id": "wheel",
+        "type": "drop",
+        "target": "submarine"
+      },
+      {
+        "id": "submarine",
+        "type": "tilt"
+      }
+    ],
+    "hint": "Add ballast and steering before changing the angle.",
+    "solution": "Put the weight and wheel on the submarine, then use Tilt right in the controls.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 23,
+    "world": 1,
+    "question": "Hide the seed from the pigeon",
+    "subtitle": "Only the dirt will fool this bird.",
+    "scene": [
+      {
+        "id": "seed",
+        "x": 223,
+        "y": 160,
+        "hidden": false
+      },
+      {
+        "id": "dirt",
+        "x": 420,
+        "y": 181,
+        "hidden": false
+      },
+      {
+        "id": "pigeon",
+        "x": 333,
+        "y": 99,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "seed",
+        "type": "drop",
+        "target": "dirt"
+      },
+      {
+        "id": "seed",
+        "type": "back"
+      },
+      {
+        "id": "pigeon",
+        "type": "off"
+      }
+    ],
+    "hint": "Hide the seed under something it could grow in.",
+    "solution": "Move the seed to the dirt and send it behind the dirt. Then move the pigeon off the scene.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 24,
+    "world": 1,
+    "question": "Rescue the kite from its own string",
+    "subtitle": "Cutting it would ruin the kite.",
+    "scene": [
+      {
+        "id": "kite",
+        "x": 405,
+        "y": 112,
+        "hidden": false
+      },
+      {
+        "id": "string",
+        "x": 230,
+        "y": 154,
+        "hidden": false
+      },
+      {
+        "id": "spool",
+        "x": 330,
+        "y": 237,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "spool",
+        "type": "drop",
+        "target": "string"
+      },
+      {
+        "id": "spool",
+        "type": "rotate"
+      },
+      {
+        "id": "string",
+        "type": "drop",
+        "target": "kite"
+      }
+    ],
+    "hint": "Wind up the loose string instead of cutting it.",
+    "solution": "Put the spool on the string, rotate the spool, then bring the tidied string to the kite.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 25,
+    "world": 1,
+    "question": "Send a silent invitation",
+    "subtitle": "The bat reads with its ears, but the party is a surprise.",
+    "scene": [
+      {
+        "id": "bat",
+        "x": 417,
+        "y": 131,
+        "hidden": false
+      },
+      {
+        "id": "bell",
+        "x": 218,
+        "y": 158,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 313,
+        "y": 232,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "bell"
+      },
+      {
+        "id": "bell",
+        "type": "drop",
+        "target": "bat"
+      },
+      {
+        "id": "bell",
+        "type": "hold"
+      }
+    ],
+    "hint": "Muffle the bell's sharp ring first.",
+    "solution": "Drape the cloth over the bell, move it to the bat, and hold it for a soft vibration.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 26,
+    "world": 1,
+    "question": "Unstick the magnet from its lunch",
+    "subtitle": "The lunchbox is steel. The rescue tool shouldn't touch it.",
+    "scene": [
+      {
+        "id": "magnet",
+        "x": 360,
+        "y": 150,
+        "hidden": false
+      },
+      {
+        "id": "box",
+        "x": 395,
+        "y": 178,
+        "hidden": false
+      },
+      {
+        "id": "wood",
+        "x": 215,
+        "y": 171,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "wood",
+        "type": "drop",
+        "target": "magnet"
+      },
+      {
+        "id": "magnet",
+        "type": "off"
+      }
+    ],
+    "hint": "A nonmetal wedge can break the contact.",
+    "solution": "Slide the wood against the magnet, then drag the magnet off the scene.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 27,
+    "world": 1,
+    "question": "Frame the lightning",
+    "subtitle": "A camera is too slow. Try a sillier approach.",
+    "scene": [
+      {
+        "id": "spark",
+        "x": 241,
+        "y": 109,
+        "hidden": false
+      },
+      {
+        "id": "frame",
+        "x": 421,
+        "y": 163,
+        "hidden": false
+      },
+      {
+        "id": "clock",
+        "x": 268,
+        "y": 233,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "clock",
+        "type": "hold"
+      },
+      {
+        "id": "frame",
+        "type": "grow"
+      },
+      {
+        "id": "frame",
+        "type": "drop",
+        "target": "spark"
+      }
+    ],
+    "hint": "Pause the moment before positioning the frame.",
+    "solution": "Hold the clock to freeze the lightning, enlarge the frame, then put it around the spark.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 28,
+    "world": 1,
+    "question": "Give the mushroom an elevator",
+    "subtitle": "It wants to reach the shelf without growing taller.",
+    "scene": [
+      {
+        "id": "mushroom",
+        "x": 212,
+        "y": 172,
+        "hidden": false
+      },
+      {
+        "id": "platform",
+        "x": 321,
+        "y": 225,
+        "hidden": false
+      },
+      {
+        "id": "shelf",
+        "x": 452,
+        "y": 120,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "mushroom",
+        "type": "drop",
+        "target": "platform"
+      },
+      {
+        "id": "platform",
+        "type": "drop",
+        "target": "shelf"
+      },
+      {
+        "id": "platform",
+        "type": "hold"
+      }
+    ],
+    "hint": "Lift the platform, not the passenger.",
+    "solution": "Put the mushroom on the platform, move the platform to the shelf, then hold it to stop there.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 29,
+    "world": 1,
+    "question": "A window that opens inward",
+    "subtitle": "The handle is on the far side of the glass.",
+    "scene": [
+      {
+        "id": "glass",
+        "x": 418,
+        "y": 157,
+        "hidden": false
+      },
+      {
+        "id": "handle",
+        "x": 215,
+        "y": 160,
+        "hidden": false
+      },
+      {
+        "id": "hinge",
+        "x": 320,
+        "y": 233,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "hinge",
+        "type": "drop",
+        "target": "glass"
+      },
+      {
+        "id": "handle",
+        "type": "drop",
+        "target": "glass"
+      },
+      {
+        "id": "handle",
+        "type": "back"
+      },
+      {
+        "id": "glass",
+        "type": "rotate"
+      }
+    ],
+    "hint": "Fit the hinge before moving the handle behind the glass.",
+    "solution": "Attach hinge and handle to the glass, send the handle behind it, then rotate the glass.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 30,
+    "world": 1,
+    "question": "Teach a scarecrow to wave",
+    "subtitle": "The arm is stuck pointing down.",
+    "scene": [
+      {
+        "id": "scarecrow",
+        "x": 420,
+        "y": 160,
+        "hidden": false
+      },
+      {
+        "id": "arm",
+        "x": 213,
+        "y": 167,
+        "hidden": false
+      },
+      {
+        "id": "glove",
+        "x": 308,
+        "y": 225,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "glove",
+        "type": "drop",
+        "target": "arm"
+      },
+      {
+        "id": "arm",
+        "type": "drop",
+        "target": "scarecrow"
+      },
+      {
+        "id": "arm",
+        "type": "rotate"
+      },
+      {
+        "id": "arm",
+        "type": "tap"
+      }
+    ],
+    "hint": "Dress the arm before trying to move it.",
+    "solution": "Put the glove on the arm, attach the arm to the scarecrow, rotate it, and tap it to wave.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 31,
+    "world": 1,
+    "question": "Unlock the fish's suitcase",
+    "subtitle": "The keyhole is full of bubbles.",
+    "scene": [
+      {
+        "id": "fish",
+        "x": 451,
+        "y": 115,
+        "hidden": false
+      },
+      {
+        "id": "box",
+        "x": 374,
+        "y": 181,
+        "hidden": false
+      },
+      {
+        "id": "brush",
+        "x": 219,
+        "y": 153,
+        "hidden": false
+      },
+      {
+        "id": "key",
+        "x": 239,
+        "y": 234,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "brush",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "box",
+        "type": "tilt"
+      },
+      {
+        "id": "key",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "box",
+        "type": "tap"
+      }
+    ],
+    "hint": "Brush first, then tilt to let the bubbles escape.",
+    "solution": "Brush the suitcase, tilt it with the control, use the key, and tap to open it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 32,
+    "world": 1,
+    "question": "Make a candle that won't blow out",
+    "subtitle": "The flame needs air but not a gust.",
+    "scene": [
+      {
+        "id": "candle",
+        "x": 363,
+        "y": 171,
+        "hidden": false
+      },
+      {
+        "id": "glass",
+        "x": 217,
+        "y": 140,
+        "hidden": false
+      },
+      {
+        "id": "mesh",
+        "x": 217,
+        "y": 229,
+        "hidden": false
+      },
+      {
+        "id": "fan",
+        "x": 464,
+        "y": 153,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "glass",
+        "type": "drop",
+        "target": "candle"
+      },
+      {
+        "id": "mesh",
+        "type": "drop",
+        "target": "glass"
+      },
+      {
+        "id": "fan",
+        "type": "drop",
+        "target": "candle"
+      },
+      {
+        "id": "fan",
+        "type": "tap"
+      }
+    ],
+    "hint": "A shield and a vent do different jobs.",
+    "solution": "Place the glass around the candle, add the mesh vent, then move the fan to the candle and turn it on to test it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 33,
+    "world": 1,
+    "question": "Give a telescope a wider view",
+    "subtitle": "The observatory is looking through a buttonhole.",
+    "scene": [
+      {
+        "id": "tower",
+        "x": 417,
+        "y": 174,
+        "hidden": false
+      },
+      {
+        "id": "lens",
+        "x": 226,
+        "y": 139,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 300,
+        "y": 230,
+        "hidden": false
+      },
+      {
+        "id": "star",
+        "x": 486,
+        "y": 72,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "lens"
+      },
+      {
+        "id": "lens",
+        "type": "grow"
+      },
+      {
+        "id": "lens",
+        "type": "drop",
+        "target": "tower"
+      },
+      {
+        "id": "tower",
+        "type": "drop",
+        "target": "star"
+      }
+    ],
+    "hint": "Clean the lens before changing its size.",
+    "solution": "Polish the lens, enlarge it, fit it to the observatory, then point the observatory at the star.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 34,
+    "world": 1,
+    "question": "The rolling picnic",
+    "subtitle": "The plate keeps sliding down the hill.",
+    "scene": [
+      {
+        "id": "plate",
+        "x": 412,
+        "y": 153,
+        "hidden": false
+      },
+      {
+        "id": "wood",
+        "x": 212,
+        "y": 163,
+        "hidden": false
+      },
+      {
+        "id": "rock",
+        "x": 309,
+        "y": 224,
+        "hidden": false
+      },
+      {
+        "id": "hill",
+        "x": 445,
+        "y": 235,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "rock",
+        "type": "drop",
+        "target": "hill"
+      },
+      {
+        "id": "wood",
+        "type": "drop",
+        "target": "rock"
+      },
+      {
+        "id": "plate",
+        "type": "drop",
+        "target": "wood"
+      },
+      {
+        "id": "plate",
+        "type": "tilt"
+      }
+    ],
+    "hint": "Build a wedge before trusting the plate on the slope.",
+    "solution": "Brace the hill with the rock, put the board on the rock, move the plate onto the board, then tilt to test it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 35,
+    "world": 1,
+    "question": "Make a bridge out of a reflection",
+    "subtitle": "The toy boat needs a reflected bridge, not a real one.",
+    "scene": [
+      {
+        "id": "boat",
+        "x": 428,
+        "y": 217,
+        "hidden": false
+      },
+      {
+        "id": "mirror",
+        "x": 224,
+        "y": 180,
+        "hidden": false
+      },
+      {
+        "id": "bridge",
+        "x": 334,
+        "y": 100,
+        "hidden": false
+      },
+      {
+        "id": "puddle",
+        "x": 430,
+        "y": 143,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "mirror",
+        "type": "drop",
+        "target": "puddle"
+      },
+      {
+        "id": "mirror",
+        "type": "rotate"
+      },
+      {
+        "id": "bridge",
+        "type": "drop",
+        "target": "mirror"
+      },
+      {
+        "id": "boat",
+        "type": "drop",
+        "target": "puddle"
+      }
+    ],
+    "hint": "Start by positioning the reflector on the water.",
+    "solution": "Move the mirror to the puddle and rotate it. Bring the bridge to the mirror, then move the boat into the reflected bridge's water.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 36,
+    "world": 1,
+    "question": "Paint a stripe that can be peeled off",
+    "subtitle": "The wall is a rental.",
+    "scene": [
+      {
+        "id": "wall",
+        "x": 430,
+        "y": 157,
+        "hidden": false
+      },
+      {
+        "id": "tape",
+        "x": 215,
+        "y": 151,
+        "hidden": false
+      },
+      {
+        "id": "brush",
+        "x": 313,
+        "y": 230,
+        "hidden": false
+      },
+      {
+        "id": "ink",
+        "x": 220,
+        "y": 235,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "tape",
+        "type": "drop",
+        "target": "wall"
+      },
+      {
+        "id": "brush",
+        "type": "drop",
+        "target": "ink"
+      },
+      {
+        "id": "brush",
+        "type": "drop",
+        "target": "tape"
+      },
+      {
+        "id": "tape",
+        "type": "hold"
+      }
+    ],
+    "hint": "Don't put the paint straight on the wall.",
+    "solution": "Put tape on the wall, dip the brush in ink and paint the tape, then hold the tape to peel it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 37,
+    "world": 1,
+    "question": "Make a sideways sundial work",
+    "subtitle": "This sundial hangs on a wall.",
+    "scene": [
+      {
+        "id": "dial",
+        "x": 417,
+        "y": 155,
+        "hidden": false
+      },
+      {
+        "id": "arm",
+        "x": 217,
+        "y": 149,
+        "hidden": false
+      },
+      {
+        "id": "sun",
+        "x": 290,
+        "y": 83,
+        "hidden": false
+      },
+      {
+        "id": "wall",
+        "x": 441,
+        "y": 235,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "dial",
+        "type": "rotate"
+      },
+      {
+        "id": "arm",
+        "type": "drop",
+        "target": "dial"
+      },
+      {
+        "id": "dial",
+        "type": "drop",
+        "target": "wall"
+      },
+      {
+        "id": "sun",
+        "type": "drop",
+        "target": "dial"
+      }
+    ],
+    "hint": "Orient the dial before attaching the shadow arm.",
+    "solution": "Rotate the dial, attach its arm, mount it on the wall, then move the sun to the dial.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 38,
+    "world": 1,
+    "question": "A tiny stage for a giant puppet",
+    "subtitle": "Changing the puppet's size is rude.",
+    "scene": [
+      {
+        "id": "puppet",
+        "x": 437,
+        "y": 165,
+        "hidden": false
+      },
+      {
+        "id": "frame",
+        "x": 216,
+        "y": 147,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 313,
+        "y": 224,
+        "hidden": false
+      },
+      {
+        "id": "platform",
+        "x": 442,
+        "y": 240,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "frame",
+        "type": "grow"
+      },
+      {
+        "id": "frame",
+        "type": "grow"
+      },
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "frame"
+      },
+      {
+        "id": "frame",
+        "type": "drop",
+        "target": "platform"
+      },
+      {
+        "id": "puppet",
+        "type": "drop",
+        "target": "frame"
+      }
+    ],
+    "hint": "Make a bigger stage instead of shrinking its star.",
+    "solution": "Enlarge the frame twice, add the curtain, mount it on the platform and move the puppet onto the stage.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 39,
+    "world": 1,
+    "question": "Serve tea in a leaky cup",
+    "subtitle": "No replacing the cup, says the teapot.",
+    "scene": [
+      {
+        "id": "cup",
+        "x": 421,
+        "y": 160,
+        "hidden": false
+      },
+      {
+        "id": "cork",
+        "x": 213,
+        "y": 142,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 213,
+        "y": 230,
+        "hidden": false
+      },
+      {
+        "id": "pot",
+        "x": 327,
+        "y": 100,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cork",
+        "type": "shrink"
+      },
+      {
+        "id": "cork",
+        "type": "drop",
+        "target": "cup"
+      },
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "cup"
+      },
+      {
+        "id": "pot",
+        "type": "drop",
+        "target": "cup"
+      },
+      {
+        "id": "pot",
+        "type": "tilt"
+      }
+    ],
+    "hint": "Plug the hole and dry the cup before pouring.",
+    "solution": "Shrink the cork, plug the cup, wipe it with the cloth, bring over the pot, and tilt it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 40,
+    "world": 1,
+    "question": "Light the backstage lantern",
+    "subtitle": "Leave the glitter on the front of the set.",
+    "scene": [
+      {
+        "id": "lamp",
+        "x": 425,
+        "y": 140,
+        "hidden": false
+      },
+      {
+        "id": "wall",
+        "x": 336,
+        "y": 172,
+        "hidden": false
+      },
+      {
+        "id": "spark",
+        "x": 219,
+        "y": 118,
+        "hidden": false
+      },
+      {
+        "id": "glitter",
+        "x": 216,
+        "y": 230,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "glitter",
+        "type": "drop",
+        "target": "wall"
+      },
+      {
+        "id": "lamp",
+        "type": "drop",
+        "target": "wall"
+      },
+      {
+        "id": "lamp",
+        "type": "back"
+      },
+      {
+        "id": "spark",
+        "type": "drop",
+        "target": "lamp"
+      }
+    ],
+    "hint": "Mark the front before placing the lantern behind it.",
+    "solution": "Put glitter on the wall, move the lamp to the wall and send it behind, then move the spark to the lamp's spot.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 41,
+    "world": 1,
+    "question": "Pull a message out of a bottle",
+    "subtitle": "The note is too big for the neck when flat.",
+    "scene": [
+      {
+        "id": "bottle",
+        "x": 424,
+        "y": 158,
+        "hidden": false
+      },
+      {
+        "id": "note",
+        "x": 424,
+        "y": 158,
+        "hidden": true
+      },
+      {
+        "id": "cork",
+        "x": 318,
+        "y": 224,
+        "hidden": false
+      },
+      {
+        "id": "hook",
+        "x": 213,
+        "y": 145,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "hook",
+        "type": "drop",
+        "target": "cork"
+      },
+      {
+        "id": "cork",
+        "type": "off",
+        "reveal": "note"
+      },
+      {
+        "id": "note",
+        "type": "shrink"
+      },
+      {
+        "id": "note",
+        "type": "rotate"
+      },
+      {
+        "id": "note",
+        "type": "off"
+      }
+    ],
+    "hint": "Remove the stopper, then change the note's shape and direction.",
+    "solution": "Hook the cork and move it offscreen. Shrink and rotate the exposed note, then pull it offscreen.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 42,
+    "world": 1,
+    "question": "Stop the squeaky parade float",
+    "subtitle": "The duck wants applause, not squeaking wheels.",
+    "scene": [
+      {
+        "id": "duck",
+        "x": 454,
+        "y": 107,
+        "hidden": false
+      },
+      {
+        "id": "wheel",
+        "x": 399,
+        "y": 176,
+        "hidden": false
+      },
+      {
+        "id": "oil",
+        "x": 219,
+        "y": 148,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 218,
+        "y": 235,
+        "hidden": false
+      },
+      {
+        "id": "axle",
+        "x": 314,
+        "y": 227,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "axle"
+      },
+      {
+        "id": "oil",
+        "type": "drop",
+        "target": "axle"
+      },
+      {
+        "id": "axle",
+        "type": "drop",
+        "target": "wheel"
+      },
+      {
+        "id": "wheel",
+        "type": "rotate"
+      },
+      {
+        "id": "duck",
+        "type": "drop",
+        "target": "wheel"
+      }
+    ],
+    "hint": "Clean the axle before oiling it.",
+    "solution": "Wipe and oil the axle, fit it onto the wheel, turn the wheel, then move the duck onto the repaired float.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 43,
+    "world": 1,
+    "question": "Pack a storm for later",
+    "subtitle": "Don't pack the thunder before insulating it.",
+    "scene": [
+      {
+        "id": "cloud",
+        "x": 223,
+        "y": 106,
+        "hidden": false
+      },
+      {
+        "id": "jar",
+        "x": 433,
+        "y": 165,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 227,
+        "y": 227,
+        "hidden": false
+      },
+      {
+        "id": "spark",
+        "x": 327,
+        "y": 105,
+        "hidden": false
+      },
+      {
+        "id": "cork",
+        "x": 333,
+        "y": 237,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "jar"
+      },
+      {
+        "id": "spark",
+        "type": "drop",
+        "target": "jar"
+      },
+      {
+        "id": "cloud",
+        "type": "drop",
+        "target": "jar"
+      },
+      {
+        "id": "cork",
+        "type": "drop",
+        "target": "jar"
+      },
+      {
+        "id": "jar",
+        "type": "hold"
+      }
+    ],
+    "hint": "The cloth belongs on the jar, not in the cloud.",
+    "solution": "Insulate the jar with the cloth, add lightning and cloud, cork it, then hold the jar to seal it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 44,
+    "world": 1,
+    "question": "Return the moon's missing bite",
+    "subtitle": "The missing piece is hiding in plain sight.",
+    "scene": [
+      {
+        "id": "moon",
+        "x": 418,
+        "y": 153,
+        "hidden": false
+      },
+      {
+        "id": "plate",
+        "x": 221,
+        "y": 175,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 221,
+        "y": 175,
+        "hidden": false
+      },
+      {
+        "id": "wedge",
+        "x": 221,
+        "y": 175,
+        "hidden": true
+      },
+      {
+        "id": "ink",
+        "x": 328,
+        "y": 230,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "cloth",
+        "type": "off",
+        "reveal": "wedge"
+      },
+      {
+        "id": "wedge",
+        "type": "rotate"
+      },
+      {
+        "id": "wedge",
+        "type": "drop",
+        "target": "ink"
+      },
+      {
+        "id": "wedge",
+        "type": "drop",
+        "target": "moon"
+      }
+    ],
+    "hint": "Start with the covered plate. The piece needs to match both angle and color.",
+    "solution": "Move the cloth offscreen to expose the wedge, rotate it, color it in the ink and put it on the moon.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 45,
+    "world": 1,
+    "question": "Print a poster without backwards letters",
+    "subtitle": "The printing plate already reads correctly.",
+    "scene": [
+      {
+        "id": "plate",
+        "x": 221,
+        "y": 158,
+        "hidden": false
+      },
+      {
+        "id": "mirror",
+        "x": 330,
+        "y": 110,
+        "hidden": false
+      },
+      {
+        "id": "ink",
+        "x": 324,
+        "y": 230,
+        "hidden": false
+      },
+      {
+        "id": "card",
+        "x": 445,
+        "y": 168,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "plate",
+        "type": "drop",
+        "target": "mirror"
+      },
+      {
+        "id": "plate",
+        "type": "rotate"
+      },
+      {
+        "id": "plate",
+        "type": "drop",
+        "target": "ink"
+      },
+      {
+        "id": "plate",
+        "type": "drop",
+        "target": "card"
+      },
+      {
+        "id": "card",
+        "type": "front"
+      }
+    ],
+    "hint": "A printing plate should be reversed before inking.",
+    "solution": "Bring the plate to the mirror, turn it once, ink it, press it onto the card, then bring the card forward to read it.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 46,
+    "world": 1,
+    "question": "Put a heartbeat in the robot",
+    "subtitle": "A loose battery won't power anything.",
+    "scene": [
+      {
+        "id": "robot",
+        "x": 431,
+        "y": 153,
+        "hidden": false
+      },
+      {
+        "id": "box",
+        "x": 216,
+        "y": 149,
+        "hidden": false
+      },
+      {
+        "id": "battery",
+        "x": 315,
+        "y": 231,
+        "hidden": false
+      },
+      {
+        "id": "wire",
+        "x": 218,
+        "y": 239,
+        "hidden": false
+      },
+      {
+        "id": "heart",
+        "x": 326,
+        "y": 92,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "battery",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "wire",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "box",
+        "type": "drop",
+        "target": "robot"
+      },
+      {
+        "id": "heart",
+        "type": "drop",
+        "target": "robot"
+      },
+      {
+        "id": "robot",
+        "type": "hold"
+      }
+    ],
+    "hint": "Build a circuit before adding the heart.",
+    "solution": "Seat the battery and wire in the box, attach it to the robot, add the heart, then hold the robot to power it on.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 47,
+    "world": 1,
+    "question": "The umbrella postal service",
+    "subtitle": "A tiny parcel needs a slow drop, not a throw.",
+    "scene": [
+      {
+        "id": "umbrella",
+        "x": 214,
+        "y": 111,
+        "hidden": false
+      },
+      {
+        "id": "parcel",
+        "x": 214,
+        "y": 228,
+        "hidden": false
+      },
+      {
+        "id": "string",
+        "x": 325,
+        "y": 228,
+        "hidden": false
+      },
+      {
+        "id": "mailbox",
+        "x": 440,
+        "y": 167,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "umbrella",
+        "type": "grow"
+      },
+      {
+        "id": "string",
+        "type": "drop",
+        "target": "umbrella"
+      },
+      {
+        "id": "parcel",
+        "type": "drop",
+        "target": "string"
+      },
+      {
+        "id": "umbrella",
+        "type": "drop",
+        "target": "mailbox"
+      },
+      {
+        "id": "umbrella",
+        "type": "tilt"
+      }
+    ],
+    "hint": "Build a parachute before steering it to the mailbox.",
+    "solution": "Enlarge the umbrella, add the string, hang the parcel, move the assembly to the mailbox, and tilt to release.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 48,
+    "world": 1,
+    "question": "Open the museum after dark",
+    "subtitle": "The guard only trusts a properly displayed replica.",
+    "scene": [
+      {
+        "id": "guard",
+        "x": 439,
+        "y": 158,
+        "hidden": false
+      },
+      {
+        "id": "star",
+        "x": 224,
+        "y": 105,
+        "hidden": false
+      },
+      {
+        "id": "frame",
+        "x": 328,
+        "y": 225,
+        "hidden": false
+      },
+      {
+        "id": "card",
+        "x": 224,
+        "y": 232,
+        "hidden": false
+      },
+      {
+        "id": "lamp",
+        "x": 440,
+        "y": 235,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "frame",
+        "type": "grow"
+      },
+      {
+        "id": "star",
+        "type": "drop",
+        "target": "frame"
+      },
+      {
+        "id": "card",
+        "type": "drop",
+        "target": "frame"
+      },
+      {
+        "id": "lamp",
+        "type": "drop",
+        "target": "frame"
+      },
+      {
+        "id": "frame",
+        "type": "drop",
+        "target": "guard"
+      }
+    ],
+    "hint": "The replica needs a frame, a label, and lighting.",
+    "solution": "Enlarge the frame, fit the star and label, light it with the lamp, then present it to the guard.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 49,
+    "world": 1,
+    "question": "Protect the egg from both sides",
+    "subtitle": "A soft floor won't help if the lid hits it.",
+    "scene": [
+      {
+        "id": "egg",
+        "x": 425,
+        "y": 107,
+        "hidden": false
+      },
+      {
+        "id": "box",
+        "x": 414,
+        "y": 219,
+        "hidden": false
+      },
+      {
+        "id": "sponge",
+        "x": 211,
+        "y": 145,
+        "hidden": false
+      },
+      {
+        "id": "cloth",
+        "x": 217,
+        "y": 235,
+        "hidden": false
+      },
+      {
+        "id": "lid",
+        "x": 312,
+        "y": 114,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "sponge",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "cloth",
+        "type": "drop",
+        "target": "lid"
+      },
+      {
+        "id": "egg",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "lid",
+        "type": "drop",
+        "target": "box"
+      },
+      {
+        "id": "lid",
+        "type": "hold"
+      }
+    ],
+    "hint": "Pad the lid as well as the floor before packing the egg.",
+    "solution": "Put the sponge in the box and cloth on the lid. Add the egg, fit the lid, then hold it closed.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "id": 50,
+    "world": 1,
+    "question": "Send the last train across a missing rail",
+    "subtitle": "The signal can't go green until the repair is checked.",
+    "scene": [
+      {
+        "id": "train",
+        "x": 213,
+        "y": 150,
+        "hidden": false
+      },
+      {
+        "id": "bridge",
+        "x": 419,
+        "y": 160,
+        "hidden": false
+      },
+      {
+        "id": "plank",
+        "x": 216,
+        "y": 231,
+        "hidden": false
+      },
+      {
+        "id": "bolt",
+        "x": 328,
+        "y": 230,
+        "hidden": false
+      },
+      {
+        "id": "lamp",
+        "x": 431,
+        "y": 74,
+        "hidden": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "plank",
+        "type": "rotate"
+      },
+      {
+        "id": "plank",
+        "type": "drop",
+        "target": "bridge"
+      },
+      {
+        "id": "bolt",
+        "type": "drop",
+        "target": "plank"
+      },
+      {
+        "id": "bridge",
+        "type": "hold"
+      },
+      {
+        "id": "lamp",
+        "type": "tap"
+      },
+      {
+        "id": "train",
+        "type": "drop",
+        "target": "bridge"
+      }
+    ],
+    "hint": "Align and fasten the rail, then test it before signaling.",
+    "solution": "Rotate the plank, lay it on the bridge, add the bolt, hold the bridge to inspect it, tap the signal, and move the train across.",
+    "difficulty": "Very Hard"
+  }
+]
